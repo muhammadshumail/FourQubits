@@ -1,0 +1,7 @@
+$begin 'soln'
+	Name='Adaptive_4'
+	AdaptivePass=4
+	SolveMaxModes=1
+	SolveMinFreq=1000000000
+	Modes(7062468119.41151, 0)
+$end 'soln'

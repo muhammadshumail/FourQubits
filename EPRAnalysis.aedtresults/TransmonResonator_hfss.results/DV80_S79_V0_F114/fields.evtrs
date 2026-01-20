@@ -1,0 +1,14 @@
+$begin 'Header'
+	NumSources=2
+	BigEndian=false
+	ByteOrder=1094861636
+	DataFormat='BINARY'
+	DataPrecision='Float'
+	Frequency=1e+09
+	Source_1='Eigenmode_1'
+	Source_2='Eigenmode_2'
+	MixedOrder='false'
+	HighestOrder=2
+	Factor_0=7.31142e+11
+	Factor_1=7.88424e+11
+$end 'Header'

@@ -1,0 +1,7 @@
+$begin 'CacheDataVersion'
+	DataVersion=4
+$end 'CacheDataVersion'
+$begin 'VariableValues'
+	Lj='10nH'
+	Cj='0fF'
+$end 'VariableValues'

@@ -1,0 +1,20 @@
+$begin 'imprintInfo'
+	FileVersion='2025R1'
+	$begin 'imprintIDMap'
+	$end 'imprintIDMap'
+	$begin 'PartsInfo'
+		Part(15, 'readout_wire_Q1', -1, 1, 20)
+		Part(64, 'pad_top_Q1', -1, 1, 74)
+		Part(76, 'pad_bot_Q1', -1, 1, 86)
+		Part(100, 'readout_connector_pad_Q1', -1, 1, 110)
+		Part(112, 'JJ_rect_Lj_Q1_rect_jj', -1, 1, 122)
+		Part(124, 'JJ_Lj_Q1_rect_jj_', -1, 0)
+		Part(129, 'ground_main_plane', -1, 1, 139)
+		Part(141, 'main', -1, 6, 142, 144, 145, 146, 143, 147)
+		Part(169, 'sample_holder', -1, 6, 170, 172, 173, 174, 171, 175)
+	$end 'PartsInfo'
+	$begin 'PartAddtionalPiecesInfo'
+	$end 'PartAddtionalPiecesInfo'
+	$begin 'faceImprintInfo'
+	$end 'faceImprintInfo'
+$end 'imprintInfo'

@@ -1,0 +1,9 @@
+$begin 'CacheDataVersion'
+	DataVersion=8
+$end 'CacheDataVersion'
+$begin 'VariableValues'
+	Lj1='13nH'
+	Cj1='0fF'
+	Lj2='9nH'
+	Cj2='0fF'
+$end 'VariableValues'

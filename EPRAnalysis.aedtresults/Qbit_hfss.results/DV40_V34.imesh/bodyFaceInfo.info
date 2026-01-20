@@ -1,0 +1,82 @@
+$begin 'DesignData'
+	Version=242
+	$begin 'PartsInfo'
+		Part(15, false, 'readout_wire_Q1', true, 'vacuum', 1, 20, true, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, false, false, -1, 143, 175, 143, false)
+		Part(64, false, 'pad_top_Q1', true, 'vacuum', 1, 74, true, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, false, false, -1, 143, 175, 143, false)
+		Part(76, false, 'pad_bot_Q1', true, 'vacuum', 1, 86, true, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, false, false, -1, 143, 175, 143, false)
+		Part(100, false, 'readout_connector_pad_Q1', true, 'vacuum', 1, 110, true, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, false, false, -1, 143, 175, 143, false)
+		Part(112, false, 'JJ_rect_Lj_Q1_rect_jj', true, 'vacuum', 1, 122, true, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, false, false, -1, 143, 175, 143, false)
+		Part(124, false, 'JJ_Lj_Q1_rect_jj_', true, 'vacuum', 0, true, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, false, false, -1, 128, 0, 128, false)
+		Part(129, false, 'ground_main_plane', true, 'vacuum', 1, 139, true, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, false, false, -1, 143, 175, 143, false)
+		Part(141, true, 'main', true, 'silicon', 6, 142, 144, 145, 146, 143, 147, true, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, false, false, -1, 186, 186, 205, false)
+		Part(169, true, 'sample_holder', true, 'vacuum', 6, 170, 172, 173, 174, 171, 175, true, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, false, false, -1, 143, 175, 143, false)
+	$end 'PartsInfo'
+	$begin 'FacesInfo'
+		Face(20, 15, 2.3503e-09, 0.49006, true, 0.314916, 0.173562, 0, -0, 0, 1, 8, 0.000239233, 0.000125, 0, 0.000321733, 0.00019, 0, 0.000425, 0.00019, 0, 0.000425, 0.0002, 0, 0.000318267, 0.0002, 0, 0.000235767, 0.000135, 0, 0.0002125, 0.000135, 0, 0.0002125, 0.000125, 0)
+		Face(74, 64, 3.825e-08, 1.03, true, 0, 0.06, 0, -0, 0, 1, 4, -0.0002125, 1.5e-05, 0, 0.0002125, 1.5e-05, 0, 0.0002125, 0.000105, 0, -0.0002125, 0.000105, 0)
+		Face(86, 76, 3.825e-08, 1.03, true, 0, -0.06, 0, -0, 0, 1, 4, -0.0002125, -0.000105, 0, 0.0002125, -0.000105, 0, 0.0002125, -1.5e-05, 0, -0.0002125, -1.5e-05, 0)
+		Face(110, 100, 6e-09, 0.46, true, 0.1125, 0.135, 0, -0, 0, 1, 4, 1.25e-05, 0.00012, 0, 0.0002125, 0.00012, 0, 0.0002125, 0.00015, 0, 1.25e-05, 0.00015, 0)
+		Face(122, 112, 6e-10, 0.1, true, 0, 0, 0, -0, 0, 1, 4, -1e-05, -1.5e-05, 0, 1e-05, -1.5e-05, 0, 1e-05, 1.5e-05, 0, -1e-05, 1.5e-05, 0)
+		Face(139, 129, 3.5753e-06, 10.8, true, -0.00023075, -0.00011999, 0, -0, 0, 1, 12, 0.000325, 0.000184, 0, 0.000325, -0.000325, 0, -0.000325, -0.000325, 0, -0.000325, 0.000325, 0, 0.000325, 0.000325, 0, 0.000325, 0.000206, 0, 0.000425, 0.000206, 0, 0.000425, 0.000184, 0, -0.001, -0.001, 0, 0.001, -0.001, 0, 0.001, 0.001, 0, -0.001, 0.001, 0)
+		Face(142, 141, 4e-06, 8, true, 0, 0, 0, 0, 0, 1, 4, 0.001, -0.001, 0, 0.001, 0.001, 0, -0.001, 0.001, 0, -0.001, -0.001, 0)
+		Face(143, 141, 4e-06, 8, true, 0, 0, -0.75, -0, -0, -1, 4, 0.001, -0.001, -0.00075, -0.001, -0.001, -0.00075, -0.001, 0.001, -0.00075, 0.001, 0.001, -0.00075)
+		Face(144, 141, 1.5e-06, 5.5, true, 0, -1, -0.375, -0, -1, -0, 4, 0.001, -0.001, 0, -0.001, -0.001, 0, -0.001, -0.001, -0.00075, 0.001, -0.001, -0.00075)
+		Face(145, 141, 1.5e-06, 5.5, true, -1, 0, -0.375, -1, -0, -0, 4, -0.001, -0.001, 0, -0.001, 0.001, 0, -0.001, 0.001, -0.00075, -0.001, -0.001, -0.00075)
+		Face(146, 141, 1.5e-06, 5.5, true, 0, 1, -0.375, 0, 1, 0, 4, -0.001, 0.001, 0, 0.001, 0.001, 0, 0.001, 0.001, -0.00075, -0.001, 0.001, -0.00075)
+		Face(147, 141, 1.5e-06, 5.5, true, 1, 0, -0.375, 1, 0, 0, 4, 0.001, 0.001, -0.00075, 0.001, 0.001, 0, 0.001, -0.001, 0, 0.001, -0.001, -0.00075)
+		Face(170, 169, 4e-06, 8, true, 0, 0, 0.89, 0, 0, 1, 4, 0.001, -0.001, 0.00089, 0.001, 0.001, 0.00089, -0.001, 0.001, 0.00089, -0.001, -0.001, 0.00089)
+		Face(171, 169, 4e-06, 8, true, 0, 0, -1.65, -0, -0, -1, 4, 0.001, -0.001, -0.00165, -0.001, -0.001, -0.00165, -0.001, 0.001, -0.00165, 0.001, 0.001, -0.00165)
+		Face(172, 169, 5.08e-06, 9.08, true, 0, -1, -0.38, -0, -1, -0, 4, 0.001, -0.001, 0.00089, -0.001, -0.001, 0.00089, -0.001, -0.001, -0.00165, 0.001, -0.001, -0.00165)
+		Face(173, 169, 5.08e-06, 9.08, true, -1, 0, -0.38, -1, -0, -0, 4, -0.001, -0.001, 0.00089, -0.001, 0.001, 0.00089, -0.001, 0.001, -0.00165, -0.001, -0.001, -0.00165)
+		Face(174, 169, 5.08e-06, 9.08, true, 0, 1, -0.38, 0, 1, 0, 4, -0.001, 0.001, 0.00089, 0.001, 0.001, 0.00089, 0.001, 0.001, -0.00165, -0.001, 0.001, -0.00165)
+		Face(175, 169, 5.08e-06, 9.08, true, 1, 0, -0.38, 1, 0, 0, 4, 0.001, 0.001, -0.00165, 0.001, 0.001, 0.00089, 0.001, -0.001, 0.00089, 0.001, -0.001, -0.00165)
+	$end 'FacesInfo'
+	$begin 'PartAddtionalPiecesInfo'
+		$begin 'Bodies'
+		$end 'Bodies'
+		$begin 'Faces'
+		$end 'Faces'
+	$end 'PartAddtionalPiecesInfo'
+	$begin 'DesignGeometryInfo'
+		ModelUnit='mm'
+		ModelerType=2
+		MinDimensionInModelUnits=1e-06
+		MaxDimensionInModelUnits=10000
+		GlobalCSID=1
+		RegionID=-1
+		PreprocessForwardIdStart=213
+		PreprocessForwardIdEnd=213
+		PreprocessBackwardIdStart=2147483647
+		PreprocessBackwardIdEnd=2147483647
+	$end 'DesignGeometryInfo'
+	$begin 'Point3DDefinitionInfo'
+	$end 'Point3DDefinitionInfo'
+	$begin 'Plane3DDefinitionInfo'
+		Plane(-4, 'Global:XY', 1, -1, true, 0, 0, 0, 0, 0, 0, 1)
+		Plane(-3, 'Global:YZ', 1, -1, true, 7077888, 0, 0, 0, 1, 0, 0)
+		Plane(-2, 'Global:XZ', 1, -1, true, 7274580, 0, 0, 0, 0, 1, 0)
+	$end 'Plane3DDefinitionInfo'
+	$begin 'CoordinateSystemInfo'
+		CoordinateSystem(1, 'Global', -1, false, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+	$end 'CoordinateSystemInfo'
+	$begin 'ComponentDefinitionInfo'
+	$end 'ComponentDefinitionInfo'
+	$begin 'ComponentInstanceInfo'
+	$end 'ComponentInstanceInfo'
+	$begin 'GeometryEntityListOperationInfo'
+		$begin 'EntityList'
+			ID=2
+			Name='AllObjects'
+			$begin 'GeometryEntityListParameters'
+				EntityType='Object'
+				EntityList(15, 64, 76, 100, 112, 124, 129, 141, 169)
+			$end 'GeometryEntityListParameters'
+		$end 'EntityList'
+	$end 'GeometryEntityListOperationInfo'
+	$begin 'MaterialManager'
+		$begin 'ProjectMaterials'
+		$end 'ProjectMaterials'
+		$begin 'InternalPrivateMaterials'
+		$end 'InternalPrivateMaterials'
+	$end 'MaterialManager'
+$end 'DesignData'
