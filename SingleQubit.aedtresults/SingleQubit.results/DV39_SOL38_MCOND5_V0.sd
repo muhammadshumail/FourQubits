@@ -1,0 +1,60 @@
+$begin 'MatrixData'
+	Type='Cond'
+	Frequency=5000000000
+	SolutionType='Adaptive'
+	Names(1, 2, 3, 4, 5, 6)
+	$begin 'Matrix'
+		m=6
+		n=6
+		$begin 'r0'
+			c(0)
+			c(0)
+			c(0)
+			c(0)
+			c(0)
+			c(0)
+		$end 'r0'
+		$begin 'r1'
+			c(0)
+			c(0)
+			c(0)
+			c(0)
+			c(0)
+			c(0)
+		$end 'r1'
+		$begin 'r2'
+			c(0)
+			c(0)
+			c(0)
+			c(0)
+			c(0)
+			c(0)
+		$end 'r2'
+		$begin 'r3'
+			c(0)
+			c(0)
+			c(0)
+			c(0)
+			c(0)
+			c(0)
+		$end 'r3'
+		$begin 'r4'
+			c(0)
+			c(0)
+			c(0)
+			c(0)
+			c(0)
+			c(0)
+		$end 'r4'
+		$begin 'r5'
+			c(0)
+			c(0)
+			c(0)
+			c(0)
+			c(0)
+			c(0)
+		$end 'r5'
+	$end 'Matrix'
+	TransitionRegionPreviousFreqs()
+	TransitionRegionCurrentFreqs()
+$end 'MatrixData'
