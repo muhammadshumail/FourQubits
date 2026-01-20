@@ -1,0 +1,85 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002026, month=000000000001, day=000000000019, hour=000000000017, min=000000000007, sec=000000000022)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000001844, lin=000000000065, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock3'
+	SolutionName='LastAdaptive'
+	SolutionID=37
+	V=0
+	$begin 'States'
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(5000000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	SweepID=-1
+$end 'SolutionBlock3'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=36, Instance=\'SetupDefinition\', Solution=-1, VersionID=0)'='SolutionBlock2'
+	'SolutionKey(SimSetup=36, Instance=\'SolutionDefinition\', Solution=37, VersionID=0)'='SolutionBlock3'
+	'SolutionKey(SimSetup=36, Instance=\'SolutionDefinition\', Solution=38, VersionID=0)'='SolutionBlock4'
+$end 'BlockMapName'
+$begin 'SolutionBlock4'
+	SolutionName='AdaptivePass'
+	SolutionID=38
+	V=0
+	$begin 'States'
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(5000000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	SweepID=-1
+$end 'SolutionBlock4'
+$begin 'SolutionBlock2'
+	SimSetupID=36
+	SimSetupName='Setup'
+	VersionID=0
+	SolveSetupID=1
+	$begin 'SU'
+	$end 'SU'
+	$begin 'SU'
+	$end 'SU'
+	$begin 'SU'
+	$end 'SU'
+	$begin 'Profiles'
+		PRF(VID=39, Ver=0, File='DV39_S36_V0.profile')
+	$end 'Profiles'
+	$begin 'MI'
+	$end 'MI'
+$end 'SolutionBlock2'
+$begin 'SolutionBlock1'
+	ProductName='Q3D Extractor'
+	CircuitName='SingleQubit'
+	VersionID=32
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=127
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='', ID=39)
+	$end 'VariationIDs'
+	VersionID2=34
+$end 'SolutionBlock1'
+$begin '$index$'
+	$begin '$index$'
+		SolutionBlock1(pos=1577, lin=52, lvl=0)
+		SolutionBlock3(pos=370, lin=1, lvl=0)
+		BlockMapName(pos=637, lin=15, lvl=0)
+		SolutionBlock4(pos=1017, lin=21, lvl=0)
+		SolutionBlock2(pos=1284, lin=35, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=1844, lin=65, lvl=0)
+	$end '$index$'
+$end '$index$'
